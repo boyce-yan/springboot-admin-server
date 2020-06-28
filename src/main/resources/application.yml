@@ -1,5 +1,13 @@
 spring:
+  boot:
+    admin:
+      ui:
+        title: yxzapp
   application:
-    name: spring-boot-admin-server
+    name: admin-server
+  security:
+    user:
+      password: yxzapp
+      name: yxzapp
 server:
   port: 8769
